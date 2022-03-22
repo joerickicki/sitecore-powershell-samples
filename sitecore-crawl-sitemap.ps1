@@ -67,4 +67,4 @@ $sitemap.urlset.url | Foreach-Object {
 }
 
  
-$results | Select-Object Url,Response,Content | ConvertTo-Csv -notypeinformation | Out-String | Out-Download -Name env-settings.csv
+$results | Select-Object Url,Response,Content | ConvertTo-Csv -notypeinformation | Out-String | Out-Download -Name results.csv
