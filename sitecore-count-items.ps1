@@ -1,5 +1,5 @@
 $templateIds = @(
-    "{89A08B70-2079-4E4D-8953-47C2E0A60221}"
+    "{11111111-1111-1111-1111-1111111112}"
 )
 
 @(Get-ChildItem -Path master:/sitecore/.. -Recurse) |
