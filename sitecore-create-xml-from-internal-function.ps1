@@ -9,5 +9,5 @@ function DownloadXml ([xml]$xml)
     $StringWriter.ToString() | Out-Download -Name crud.xml
 }
 
-$xmlDoc = [My.Xml.Class]::GetCrud("{27F62F2B-D903-42FC-A593-649B4639721F}")
+$xmlDoc = [My.Xml.Class]::GetXmlFromSitecoreInternalFunction("{111111-1111-1111-1111-111111111112}")
 DownloadXml $xmlDoc
