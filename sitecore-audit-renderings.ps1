@@ -2,9 +2,9 @@ $device = Get-LayoutDevice -Default
 $Results = @(); 
 
 $criteria = @(
-  #@{ Filter = "Equals"; Field = "_templatename"; Value = "Generic Page"; }, 
-  #@{ Filter = "StartsWith"; Field = "_fullpath"; Value = "/sitecore/content/Aspen Snowmass/Site/" }
-  @{ Filter = "DescendantOf"; Value = (Get-Item "master:/sitecore/content/Aspen Snowmass/Site/"); }
+  #@{ Filter = "Equals"; Field = "_templatename"; Value = "Site Page"; }, 
+  #@{ Filter = "StartsWith"; Field = "_fullpath"; Value = "/sitecore/content/MySite/Home/" }
+  @{ Filter = "DescendantOf"; Value = (Get-Item "master:/sitecore/content/Mysite/Home/"); }
 )
 
 $props = @{
