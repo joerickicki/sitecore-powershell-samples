@@ -1,5 +1,5 @@
 
-$mediaFolderTemplate = "{FE5DD826-48C6-436D-B87A-7C4210C7413B}"
+$mediaFolderTemplate = "{11111111-1111-1111-11111-111111111111}"
 
 function CreateMediaFolderItem($medialFolderItemPath)
 {
